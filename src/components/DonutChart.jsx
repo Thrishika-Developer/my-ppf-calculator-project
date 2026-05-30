@@ -1,7 +1,6 @@
 export default function DonutChart({ invested, interest }) {
   const total = invested + interest;
   const interestPercent = (interest / total) * 100;
-  const investedPercent = (invested / total) * 100;
   return (
     <div className="chart-container">
       <div className="legend">
