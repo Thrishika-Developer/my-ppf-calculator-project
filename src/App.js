@@ -34,7 +34,7 @@ export default function App() {
           <SliderInput
             label="Time period (in Years)"
             min={1}
-            max={50}
+            max={15}
             step={1}
             value={years}
             onChange={(val) => setYears(Number(val))}
