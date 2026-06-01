@@ -84,10 +84,6 @@ body {
   accent-color: rgb(173, 233, 200);
 }
 
-.slider {
-  accent-color: rgb(65, 161, 107);
-}
-
 .slider::-webkit-slider-thumb {
   background: rgb(11, 53, 11);
 }
